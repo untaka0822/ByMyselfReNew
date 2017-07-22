@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE2A1709A4B83D17EBCED25D4FCD080C71FC19A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE2A1709A4B83D17EBCED25D4FCD080C71FC19A2" : 9223372036854775807,
+    "95316F7711B2C1A83BEC052C7E295881DA788843" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B9B7779-C1EB-44D5-858C-FC8871E50140",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE2A1709A4B83D17EBCED25D4FCD080C71FC19A2" : "ByMyself\/",
+    "95316F7711B2C1A83BEC052C7E295881DA788843" : "ByMyself\/ByMyself\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ByMyself",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ByMyself.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/untaka0822\/ByMyself.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95316F7711B2C1A83BEC052C7E295881DA788843"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/untaka0822\/ByMyself",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE2A1709A4B83D17EBCED25D4FCD080C71FC19A2"
+    }
+  ]
+}

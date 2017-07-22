@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>person21</key>
+	<dict>
+		<key>words</key>
+		<string>寿命、大事なのは、健康寿命。</string>
+		<key>name</key>
+		<string>清沢 浩行</string>
+	</dict>
+	<key>person20</key>
+	<dict>
+		<key>words</key>
+		<string>自分の生きる人生を愛せ 自分の愛する人生を生きろ。</string>
+		<key>name</key>
+		<string>ボブ・マーリー</string>
+	</dict>
+	<key>person19</key>
+	<dict>
+		<key>words</key>
+		<string>期待はあらゆる苦悩のもと。</string>
+		<key>name</key>
+		<string>シェイクスピア</string>
+	</dict>
+	<key>person18</key>
+	<dict>
+		<key>words</key>
+		<string>あちこち旅をして回っても 自分から逃げることはできない。</string>
+		<key>name</key>
+		<string>ヘミングウェイ</string>
+	</dict>
+	<key>person17</key>
+	<dict>
+		<key>words</key>
+		<string>未来とは、今である。</string>
+		<key>name</key>
+		<string>マーガレット・ミード</string>
+	</dict>
+	<key>person16</key>
+	<dict>
+		<key>words</key>
+		<string>人生という試合で最も重要なのは 休憩時間の得点である。</string>
+		<key>name</key>
+		<string>ナポレオン</string>
+	</dict>
+	<key>person15</key>
+	<dict>
+		<key>words</key>
+		<string>夢中で日を過ごしていれば いつかわかる時がくる。</string>
+		<key>name</key>
+		<string>坂本龍馬</string>
+	</dict>
+	<key>person14</key>
+	<dict>
+		<key>words</key>
+		<string>自分自身を信じてみるだけでいい。 きっと、生きる道が見えてくる。</string>
+		<key>name</key>
+		<string>ゲーテ</string>
+	</dict>
+	<key>person13</key>
+	<dict>
+		<key>words</key>
+		<string>どれだけ生きたかではなく どう生きたかが重要だ。</string>
+		<key>name</key>
+		<string>リンカーン</string>
+	</dict>
+	<key>person12</key>
+	<dict>
+		<key>words</key>
+		<string>人生というのは 恐れを知らぬ冒険か、無です。</string>
+		<key>name</key>
+		<string>ヘレンケラー</string>
+	</dict>
+	<key>person11</key>
+	<dict>
+		<key>words</key>
+		<string>将来についてなんて 一度も心配したことないよ。 それはすぐにやってくるさ。</string>
+		<key>name</key>
+		<string>アインシュタイン</string>
+	</dict>
+	<key>person10</key>
+	<dict>
+		<key>words</key>
+		<string>優先順位は行動に現れる。</string>
+		<key>name</key>
+		<string>ガンジー</string>
+	</dict>
+	<key>person9</key>
+	<dict>
+		<key>words</key>
+		<string>失敗をしないものは 何も生み出すことはない。</string>
+		<key>name</key>
+		<string>ジャコモ・カサノヴァ</string>
+	</dict>
+	<key>person8</key>
+	<dict>
+		<key>words</key>
+		<string>全てのルールに従って生きていたら 私はどこにもいけやしない。</string>
+		<key>name</key>
+		<string>マリリン・モンロー</string>
+	</dict>
+	<key>person7</key>
+	<dict>
+		<key>words</key>
+		<string>あなたが恐れていることを 毎日1つ実行するのです。</string>
+		<key>name</key>
+		<string>エレノア・ルーズベルト</string>
+	</dict>
+	<key>person6</key>
+	<dict>
+		<key>words</key>
+		<string>人が不可能と思う時 やりたくないと決めている。</string>
+		<key>name</key>
+		<string>スピノザ</string>
+	</dict>
+	<key>person5</key>
+	<dict>
+		<key>words</key>
+		<string>今の人はみんな 「何かしなければ」と思いすぎる。</string>
+		<key>name</key>
+		<string>河合隼雄</string>
+	</dict>
+	<key>person4</key>
+	<dict>
+		<key>words</key>
+		<string>人間の困ったところは 何がしたいのかわからないことだ。</string>
+		<key>name</key>
+		<string>マリリン・ファーガソン</string>
+	</dict>
+	<key>person3</key>
+	<dict>
+		<key>words</key>
+		<string>誰かがやるはずだった。 その誰かになりたかった。</string>
+		<key>name</key>
+		<string>カール・ルイス</string>
+	</dict>
+	<key>person2</key>
+	<dict>
+		<key>words</key>
+		<string>戦争は嫌でございます。 親孝行ができませんし 何しろ散らかしますから。</string>
+		<key>name</key>
+		<string>岡本文弥</string>
+	</dict>
+	<key>person1</key>
+	<dict>
+		<key>words</key>
+		<string>私は何も学びとることがないほど 無知な人に出会ったことはない。</string>
+		<key>name</key>
+		<string>ガリレオ・ガリレイ</string>
+	</dict>
+</dict>
+</plist>

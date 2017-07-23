@@ -130,7 +130,7 @@ class DetailGoalViewController: UIViewController, UITextViewDelegate {
         
         if count != 0 {
         // 出力 yearはそのまま 日にちは1年で365日、1日は24時間、1時間は60分、1分は60秒という計算
-            mySmallLimit.text = "残り\(day % 365)日\(hour % 24)時間\(min % 60)分\(count % 60)秒"
+            mySmallLimit.text = "\(day % 365)日\(hour % 24)時間\(min % 60)分\(count % 60)秒"
         } else {
             mySmallLimit.text = "お疲れ様でした。\n目標時間に到達しました。"
         }

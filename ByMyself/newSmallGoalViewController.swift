@@ -123,24 +123,6 @@ class newSmallGoalViewController: UIViewController {
             
         }
         
-        // ローカル通知のオブジェクト作成
-        let notification :UILocalNotification = UILocalNotification()
-        
-        // タイトル設定
-        notification.alertTitle = smallNewGoalName.text! + "の時間に到達しました"
-        
-        // 通知メッセージの設定
-        notification.alertBody = "お疲れ様でした。\n次なる目標に向けて進みましょう。"
-        
-        // TimeZoneの設定(現在iphoneやMacに指定している時間)
-        notification.timeZone = TimeZone.current
-        
-        // 通知の時間を設定
-        notification.fireDate = Date(timeIntervalSinceNow: TimeInterval(date.getGoalTimeInterval(targetTime: dfc.date(from: totalTime)!)))
-        
-        // ローカル通知オブジェクトをセット(アプリが終了してもスケジュール通り発動する)
-        UIApplication.shared.scheduleLocalNotification(notification)
-        
         // 次のページへ
         dismiss(animated: true, completion: nil)
 
@@ -156,13 +138,12 @@ class newSmallGoalViewController: UIViewController {
         // フォーマットの設定
         df.dateFormat = "yyyy/MM/dd "
         
+        var dateGoals = df.string(from: sender.date)
+        
         let dftime = DateFormatter()
         
         // フォーマットの設定
         dftime.dateFormat = "HH:mm:ss"
-        
-        
-        var dateGoals = df.string(from: sender.date)
         
         var dateGoalsTime = dftime.string(from: smallNewGoalLimit.date)
         
@@ -171,6 +152,7 @@ class newSmallGoalViewController: UIViewController {
         print(dateGoals)
         
         totalTime = dateGoals
+        
     }
     
     // 選択された時間が変わった時発動
@@ -180,15 +162,15 @@ class newSmallGoalViewController: UIViewController {
         let df = DateFormatter()
         
         // フォーマットの設定
-        df.dateFormat = "HH:mm:ss"
+        df.dateFormat = " HH:mm:ss"
         
+        var dateGoals = df.string(from: sender.date)
+
         let dftime = DateFormatter()
         
         // フォーマットの設定
         dftime.dateFormat = "yyyy/MM/dd "
-        
-        var dateGoals = df.string(from: sender.date)
-        
+    
         var dateGoalsTime = dftime.string(from: timeDatePicker.date)
         
         dateGoals = dateGoalsTime + dateGoals

@@ -55,6 +55,8 @@ class customCell1: UITableViewCell {
         
         var day: Int = hour / 24
         
+        var year: Int = day / 365
+        
         // 強制終了
         if count <= 0 {
             timer.invalidate()
@@ -77,6 +79,10 @@ class customCell1: UITableViewCell {
             day = 0
         }
         
+        if year <= 0 {
+            year = 0
+        }
+        
         if count % 10 == 0 {
             animateLabel(label: smallGoal)
         }
@@ -88,7 +94,7 @@ class customCell1: UITableViewCell {
 
         // 出力 yearはそのまま 日にちは1年で365日、1日は24時間、1時間は60分、1分は60秒という計算
         if count != 0 {
-            smallGoal.text = "\(day % 365)日\(hour % 24)時間\(min % 60)分\(count % 60)秒"
+            smallGoal.text = "\(year)年\(day % 365)日\(hour % 24)時間\(min % 60)分\(count % 60)秒"
         } else {
             smallGoal.text = "目標時間に到達しました。"
         }

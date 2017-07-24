@@ -91,24 +91,6 @@ class AddGoalViewController: UIViewController {
         } catch {
             
         }
- 
-        // ローカル通知のオブジェクト作成
-        let notification :UILocalNotification = UILocalNotification()
-        
-        // タイトル設定
-        notification.alertTitle = "Big Goal Achieved!"
-        
-        // 通知メッセージの設定
-        notification.alertBody = "お疲れ様でした。\n次なる目標に向けて進みましょう。"
-        
-        // TimeZoneの設定(現在iphoneやMacに指定している時間)
-        notification.timeZone = TimeZone.current
-        
-        // 通知の時間を設定
-        notification.fireDate = Date(timeIntervalSinceNow: TimeInterval(date.getGoalTimeInterval(targetTime: dfc.date(from: bigTotal)!)))
-        
-        // ローカル通知オブジェクトをセット(アプリが終了してもスケジュール通り発動する)
-        UIApplication.shared.scheduleLocalNotification(notification)
         
         // 次のページへ
         dismiss(animated: true, completion: nil)
@@ -136,8 +118,6 @@ class AddGoalViewController: UIViewController {
         
         dateGoals = dateGoals + dateGoalsTime
         
-        print(dateGoals)
-        
         bigTotal = dateGoals
     }
     
@@ -161,8 +141,6 @@ class AddGoalViewController: UIViewController {
         var dateGoalsTime = dftime.string(from: goalLimit.date)
         
         dateGoals = dateGoalsTime + dateGoals
-        
-        print(dateGoals)
         
         bigTotal = dateGoals
     }

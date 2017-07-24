@@ -111,6 +111,8 @@ class DetailGoalViewController: UIViewController, UITextViewDelegate {
         
         var day: Int = hour / 24
         
+        var year: Int  = day / 365
+        
         // 0以下にならないようにする記述
         if count <= 0 {
             count = 0
@@ -128,9 +130,13 @@ class DetailGoalViewController: UIViewController, UITextViewDelegate {
             day = 0
         }
         
+        if year <= 0 {
+            year = 0
+        }
+        
         if count != 0 {
         // 出力 yearはそのまま 日にちは1年で365日、1日は24時間、1時間は60分、1分は60秒という計算
-            mySmallLimit.text = "\(day % 365)日\(hour % 24)時間\(min % 60)分\(count % 60)秒"
+            mySmallLimit.text = "\(year)年\(day % 365)日\n\(hour % 24)時間\(min % 60)分\(count % 60)秒"
         } else {
             mySmallLimit.text = "お疲れ様でした。\n目標時間に到達しました。"
         }

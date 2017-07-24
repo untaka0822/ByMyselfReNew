@@ -221,9 +221,6 @@
 		A8AC008E1F22F5A200ED3DE4 /* customCells */ = {
 			isa = PBXGroup;
 			children = (
-				A89131301F0620E2008B5DA6 /* customCell.swift */,
-				A830789E1F0E7DD200816F9A /* customCell1.swift */,
-				A80243651F1748C4001A19E0 /* customCell2.swift */,
 			);
 			name = customCells;
 			sourceTree = "<group>";
@@ -243,8 +240,6 @@
 		A8AC00901F22F63C00ED3DE4 /* SmallGoals */ = {
 			isa = PBXGroup;
 			children = (
-				A8111D151F16085200A98564 /* DetailGoalViewController.swift */,
-				A87377A51F1C8C9900F29E98 /* newSmallGoalViewController.swift */,
 			);
 			name = SmallGoals;
 			sourceTree = "<group>";
@@ -252,8 +247,6 @@
 		A8AC00911F22F69800ED3DE4 /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				A8FA44C21F12A22600EE834A /* DetailHelpViewController.swift */,
-				A8FA44C01F129BD900EE834A /* helpAppViewController.swift */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -261,8 +254,22 @@
 		A8AC00921F22F6FA00ED3DE4 /* BigGoal */ = {
 			isa = PBXGroup;
 			children = (
+				A87377A51F1C8C9900F29E98 /* newSmallGoalViewController.swift */,
+				A89131301F0620E2008B5DA6 /* customCell.swift */,
+				A830789E1F0E7DD200816F9A /* customCell1.swift */,
+				A80243651F1748C4001A19E0 /* customCell2.swift */,
+				A8FA44C21F12A22600EE834A /* DetailHelpViewController.swift */,
+				A8FA44C01F129BD900EE834A /* helpAppViewController.swift */,
 				A86D134F1F069DA000A19D74 /* AddGoalViewController.swift */,
 				A8181F161F0D1FC80018411F /* DateCountViewController.swift */,
+				A8111D151F16085200A98564 /* DetailGoalViewController.swift */,
+				A8F636A51F0349AB0063609B /* Info.plist */,
+				A8AC00901F22F63C00ED3DE4 /* SmallGoals */,
+				A8C3CA481F1DDCA100D6CC07 /* DISPLAY FREE TFB.ttf */,
+				A822430A1F1929620024D87F /* ByMyself.xcdatamodeld */,
+				A8FA44BE1F129A9000EE834A /* question-mark.gif */,
+				A8FA44BC1F12927400EE834A /* plus.png */,
+				A86D134D1F0645D000A19D74 /* Motivation.plist */,
 			);
 			name = BigGoal;
 			sourceTree = "<group>";
@@ -317,16 +324,9 @@
 				A8AC00931F22F71200ED3DE4 /* Main */,
 				A8AC00941F22F73000ED3DE4 /* View */,
 				A8AC00921F22F6FA00ED3DE4 /* BigGoal */,
-				A8AC00901F22F63C00ED3DE4 /* SmallGoals */,
 				A8AC008E1F22F5A200ED3DE4 /* customCells */,
 				A8AC008F1F22F5BF00ED3DE4 /* Alarm */,
 				A8AC00911F22F69800ED3DE4 /* Help */,
-				A8C3CA481F1DDCA100D6CC07 /* DISPLAY FREE TFB.ttf */,
-				A822430A1F1929620024D87F /* ByMyself.xcdatamodeld */,
-				A8FA44BE1F129A9000EE834A /* question-mark.gif */,
-				A8FA44BC1F12927400EE834A /* plus.png */,
-				A86D134D1F0645D000A19D74 /* Motivation.plist */,
-				A8F636A51F0349AB0063609B /* Info.plist */,
 				A8F636A01F0349AB0063609B /* Assets.xcassets */,
 			);
 			path = ByMyself;

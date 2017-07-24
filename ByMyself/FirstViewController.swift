@@ -178,7 +178,8 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     // 小さい目標を削除
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-        
+            
+            dcSelectedDate = smallSaveDate[indexPath.row] as Date
             // AppDelegateを使う用意をしておく
             let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
             
@@ -187,19 +188,25 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
             
             // どのエンティティからdataを取得してくるか設定
             let request : NSFetchRequest<SmallGoals> = SmallGoals.fetchRequest()
+            
+            // 絞り込み検索(更新したいデータを取得する)
+            let namePredicate =  NSPredicate(format: "saveDate = %@", dcSelectedDate as CVarArg)
+            request.predicate = namePredicate
+
             do {
                 // 削除するデータを取得
                 let fetchResults = try viewContext.fetch(request)
                 for result: AnyObject in fetchResults {
                     let record = result as! NSManagedObject
+                    print(record)
                     // 一行ずつ削除
                     viewContext.delete(record)
-                    // tableView.deleteRows(at: [indexPath], with: .fade)
                 }
                 // 削除した状態を保存
                 try viewContext.save()
             } catch {
             }
+            smallGoalRead()
         }
         smallTableView.reloadData()
     }

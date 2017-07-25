@@ -138,6 +138,7 @@
 		A822430D1F1929D10024D87F /* BigGoal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BigGoal+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A822430E1F1929D10024D87F /* BigGoal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BigGoal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A830789E1F0E7DD200816F9A /* customCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCell1.swift; sourceTree = "<group>"; };
+		A865C2B51F26486A00389E84 /* ByMyself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ByMyself.entitlements; sourceTree = "<group>"; };
 		A86D134D1F0645D000A19D74 /* Motivation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Motivation.plist; sourceTree = "<group>"; };
 		A86D134F1F069DA000A19D74 /* AddGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
 		A87377A51F1C8C9900F29E98 /* newSmallGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSmallGoalViewController.swift; sourceTree = "<group>"; };
@@ -243,6 +244,13 @@
 				A808ED611F0F549300D1166E /* UnwindSegue.swift */,
 			);
 			path = Spring;
+			sourceTree = "<group>";
+		};
+		A865C2B61F26486A00389E84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A8AC008E1F22F5A200ED3DE4 /* customCells */ = {
@@ -353,6 +361,7 @@
 				A8F636AD1F0349AB0063609B /* ByMyselfTests */,
 				A8F636B81F0349AB0063609B /* ByMyselfUITests */,
 				A8F636951F0349AB0063609B /* Products */,
+				A865C2B61F26486A00389E84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -369,6 +378,7 @@
 		A8F636961F0349AB0063609B /* ByMyself */ = {
 			isa = PBXGroup;
 			children = (
+				A865C2B51F26486A00389E84 /* ByMyself.entitlements */,
 				A808ED431F0F549300D1166E /* Spring */,
 				A8AC00931F22F71200ED3DE4 /* Main */,
 				A8AC00941F22F73000ED3DE4 /* View */,
@@ -470,6 +480,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = S5228E9GY8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					A8F636A91F0349AB0063609B = {
 						CreatedOnToolsVersion = 8.3.3;

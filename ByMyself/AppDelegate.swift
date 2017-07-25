@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
             error = error1
             print("could not active session. err:\(error!.localizedDescription)")
         }
-        window?.tintColor = UIColor.red
+        window?.tintColor = UIColor.blue
         
         // MARK: ここがパススクライトファイルの場所
         let urls = FileManager.default.urls(for:.documentDirectory,in: .userDomainMask)

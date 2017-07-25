@@ -8,9 +8,7 @@
 
 import UIKit
 
-class WeekdaysViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    @IBOutlet weak var myTableView: UITableView!
+class WeekdaysViewController: UITableViewController {
     
     var weekdays: [Int]!
     
@@ -26,13 +24,10 @@ class WeekdaysViewController: UIViewController, UITableViewDataSource, UITableVi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 7
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UITableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = super.tableView(tableView, cellForRowAt: indexPath)
+
         
         for weekday in weekdays
         {
@@ -44,7 +39,7 @@ class WeekdaysViewController: UIViewController, UITableViewDataSource, UITableVi
     }
 
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)!
         
         if let index = weekdays.index(of: (indexPath.row + 1)){

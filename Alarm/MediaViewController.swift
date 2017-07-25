@@ -6,6 +6,8 @@
 //  Copyright (c) 2016年 LongGames. All rights reserved.
 //
 
+// update
+
 import UIKit
 import MediaPlayer
 
@@ -33,7 +35,7 @@ class MediaViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         guard let header = view as? UITableViewHeaderFooterView else { return }
-        header.textLabel?.textColor =  UIColor.gray
+        header.textLabel?.textColor =  UIColor.black
         header.textLabel?.font = UIFont.boldSystemFont(ofSize: 10)
         header.textLabel?.frame = header.frame
         header.textLabel?.textAlignment = .left

@@ -21,8 +21,12 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
     var snoozeEnabled: Bool = false
     var enabled: Bool!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        datePicker.setValue(UIColor.white, forKeyPath: "textColor")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -101,7 +105,8 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
             else if indexPath.row == 2 {
                 cell!.textLabel!.text = "Sound"
                 cell!.detailTextLabel!.text = segueInfo.mediaLabel
-                cell!.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+                // update
+                // cell!.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
             }
             else if indexPath.row == 3 {
                
@@ -140,10 +145,12 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
                 performSegue(withIdentifier: Id.labelSegueIdentifier, sender: self)
                 cell?.setSelected(true, animated: false)
                 cell?.setSelected(false, animated: false)
-            case 2:
-                performSegue(withIdentifier: Id.soundSegueIdentifier, sender: self)
-                cell?.setSelected(true, animated: false)
-                cell?.setSelected(false, animated: false)
+                
+                // update
+            // case 2:
+//                performSegue(withIdentifier: Id.soundSegueIdentifier, sender: self)
+//                cell?.setSelected(true, animated: false)
+//                cell?.setSelected(false, animated: false)
             default:
                 break
             }

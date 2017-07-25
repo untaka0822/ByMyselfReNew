@@ -63,20 +63,11 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         // CoreDataからDataを読み込み処理
         read()
         
-        //枠線
-        smallTableView.layer.borderWidth = 0.5
-        smallGoalsLabel.layer.borderWidth = 0.5
-        
         // 外側を丸く
         self.plusButton.layer.cornerRadius = 12 
         self.plusButton.layer.masksToBounds = true
-
-        
     
     }
-    
-    
-    
     
     // 大きい目標側のread
     func read() {

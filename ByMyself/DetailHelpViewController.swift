@@ -20,10 +20,6 @@ class DetailHelpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // ナビゲーションを透明にする処理
-        self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        self.navigationController!.navigationBar.shadowImage = UIImage()
-
         self.myTextView.layer.cornerRadius = 15
         self.myTextView.layer.masksToBounds = true
         

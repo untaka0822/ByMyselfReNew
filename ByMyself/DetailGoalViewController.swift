@@ -50,7 +50,7 @@ class DetailGoalViewController: UIViewController, UITextViewDelegate {
         mySmallNote.text = smallGoalMemo
         
     
-        print("前の画面から選択された行:\(sIndex)")
+        // print("前の画面から選択された行:\(sIndex)")
         
         // 仮のサイズでツールバー生成
         let kbToolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 320, height: 40))

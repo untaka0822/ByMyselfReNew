@@ -23,7 +23,7 @@ class DetailHelpViewController: UIViewController {
         self.myTextView.layer.cornerRadius = 15
         self.myTextView.layer.masksToBounds = true
         
-        print("前の画面から選択された行:\(sIndex)")
+        // print("前の画面から選択された行:\(sIndex)")
         
         if sIndex == 0 {
             

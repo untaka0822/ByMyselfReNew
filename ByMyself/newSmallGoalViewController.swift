@@ -111,10 +111,8 @@ class newSmallGoalViewController: UIViewController {
         dfc.dateFormat = "yyyy/MM/dd HH:mm:ss"
         
         newRecord.setValue(dfc.date(from: totalTime), forKey: "times")
-        
         newRecord.setValue(smallNewGoalMemo.text, forKey: "memos")
         newRecord.setValue(Date(), forKey: "saveDate")
-        
         
         do {
             // レコード(行)の即時保存
@@ -145,11 +143,11 @@ class newSmallGoalViewController: UIViewController {
         // フォーマットの設定
         dftime.dateFormat = "HH:mm:ss"
         
-        var dateGoalsTime = dftime.string(from: smallNewGoalLimit.date)
+        var dateGoalsTime = dftime.string(from: timeDatePicker.date)
         
         dateGoals = dateGoals + dateGoalsTime
         
-        print(dateGoals)
+        // print(dateGoals)
         
         totalTime = dateGoals
         
@@ -162,7 +160,7 @@ class newSmallGoalViewController: UIViewController {
         let df = DateFormatter()
         
         // フォーマットの設定
-        df.dateFormat = " HH:mm:ss"
+        df.dateFormat = "HH:mm:ss"
         
         var dateGoals = df.string(from: sender.date)
 
@@ -171,11 +169,11 @@ class newSmallGoalViewController: UIViewController {
         // フォーマットの設定
         dftime.dateFormat = "yyyy/MM/dd "
     
-        var dateGoalsTime = dftime.string(from: timeDatePicker.date)
+        var dateGoalsTime = dftime.string(from: smallNewGoalLimit.date)
         
         dateGoals = dateGoalsTime + dateGoals
         
-        print(dateGoals)
+        // print(dateGoals)
         
         totalTime = dateGoals
     }

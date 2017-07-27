@@ -45,7 +45,7 @@ class helpAppViewController: UIViewController, UITableViewDataSource, UITableVie
     
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("選択されたデータ:\(helpTitles[indexPath.row])")
+        // print("選択されたデータ:\(helpTitles[indexPath.row])")
         
         // 選択された行番号をメンバ変数に格納
         selectedIndex = indexPath.row

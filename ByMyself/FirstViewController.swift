@@ -189,7 +189,6 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
                 let fetchResults = try viewContext.fetch(request)
                 for result: AnyObject in fetchResults {
                     let record = result as! NSManagedObject
-                    print(record)
                     // 一行ずつ削除
                     viewContext.delete(record)
                 }
@@ -221,7 +220,7 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         timer.fire()
         
         // Motivation.plistの辞書型
-        var person = ["person1","person2","person3","person4","person5","person6","person7","person8","person9","person10","person11","person12","person13","person14","person15","person16","person17","person18","person19","person20", "person21"]
+        var person = ["person1","person2","person3","person4","person5","person6","person7","person8","person9","person10","person11","person12","person13","person14","person15","person16","person17","person18","person19","person20", "person21", "person22", "person23", "person24", "person25", "person26", "person27", "person28", "person29", "person30", "person31"]
         
         let random = Int(arc4random()) % person.count
         
@@ -380,7 +379,7 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     // セルがタップされたとき
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        print("選択されたデータ:\(smallGoals[indexPath.row])")
+        // print("選択されたデータ:\(smallGoals[indexPath.row])")
         
         selectedIndex = indexPath.row
         

@@ -24,6 +24,12 @@ class LabelEditViewController: UIViewController, UITextFieldDelegate {
         //defined in UITextInputTraits protocol
         labelTextField.returnKeyType = UIReturnKeyType.done
         labelTextField.enablesReturnKeyAutomatically = true
+        
+        let textField = UITextField()
+        labelTextField.placeholder = "目標名を入力"
+
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

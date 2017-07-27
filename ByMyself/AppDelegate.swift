@@ -44,6 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
         let urls = FileManager.default.urls(for:.documentDirectory,in: .userDomainMask)
         print(urls[urls.count-1] as URL)
         
+        //スプラッシュ時間設定
+        sleep(2);
+        
         return true
     }
 

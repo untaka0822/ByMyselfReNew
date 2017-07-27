@@ -2,6 +2,76 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>person31</key>
+	<dict>
+		<key>words</key>
+		<string>done is better  than perfect</string>
+		<key>name</key>
+		<string>Eriko Ichinohe</string>
+	</dict>
+	<key>person30</key>
+	<dict>
+		<key>words</key>
+		<string>すべてを納得すれば 心はきわめて寛大になる</string>
+		<key>name</key>
+		<string>スタール夫人</string>
+	</dict>
+	<key>person29</key>
+	<dict>
+		<key>words</key>
+		<string>すべては、待っている間に頑張った人のもの。</string>
+		<key>name</key>
+		<string>エジソン</string>
+	</dict>
+	<key>person28</key>
+	<dict>
+		<key>words</key>
+		<string>すべての不幸は未来への踏み台にすぎない。</string>
+		<key>name</key>
+		<string>ソロー</string>
+	</dict>
+	<key>person27</key>
+	<dict>
+		<key>words</key>
+		<string>しなくちゃいけない仕事には、 何か楽しめる要素があるもの</string>
+		<key>name</key>
+		<string>ディズニー</string>
+	</dict>
+	<key>person26</key>
+	<dict>
+		<key>words</key>
+		<string>おもしろきこともなき世をおもしろく 住みなすものは心なりけり。</string>
+		<key>name</key>
+		<string>高杉晋作</string>
+	</dict>
+	<key>person25</key>
+	<dict>
+		<key>words</key>
+		<string>おのれの得るところを軽んずるなかれ。</string>
+		<key>name</key>
+		<string>釈迦</string>
+	</dict>
+	<key>person24</key>
+	<dict>
+		<key>words</key>
+		<string>貴方の人生は貴方の思いどおりに変えられる。 なぜなら貴方自身によってデザインされるのが 貴方の人生だからだ。</string>
+		<key>name</key>
+		<string>マーフィー</string>
+	</dict>
+	<key>person23</key>
+	<dict>
+		<key>words</key>
+		<string>アイデアの秘訣は執念である。</string>
+		<key>name</key>
+		<string>チャップリン</string>
+	</dict>
+	<key>person22</key>
+	<dict>
+		<key>words</key>
+		<string>&quot;垣根”は相手が作っているのではなく 自分が作っている。</string>
+		<key>name</key>
+		<string>アリストテレス</string>
+	</dict>
 	<key>person21</key>
 	<dict>
 		<key>words</key>
